@@ -41,29 +41,7 @@ The goal of this project is to build an automated, reliable Python pipeline that
 
 ---
 
-## 3. Submission Deliverables
-
-1. **Complete modular Python source code** in a private GitHub repository.
-2. **CLI inference script** for batch processing.
-3. **Annotated output images and JSON metadata**.
-4. **Comprehensive README.md** with setup, model rationale, and execution instructions.
-
-### CLI Example
-```bash
-python inference.py --input ./data/test_images --output ./results
-```
-
----
-
-## 4. Submission Instructions
-
-1. Push the implementation to a private GitHub repository and grant access to the hiring team.
-2. Ensure the CLI works using relative paths (e.g., `./data/test_images`, `./results`).
-3. Include all dependencies in `requirements.txt` or `environment.yml`.
-
----
-
-## 5. Quick Setup & How to Run
+## 3. Quick Setup & How to Run
 
 ### Installation
 ```bash
@@ -95,7 +73,7 @@ python run_tests.py
 
 ---
 
-## 6. How the Pipeline Works (Model Rationale)
+## 4. How the Pipeline Works (Model Rationale)
 
 The system processes each manuscript in 3 simple, automated steps:
 
@@ -128,7 +106,7 @@ The system processes each manuscript in 3 simple, automated steps:
 
 ---
 
-## 7. Output Format & JSON Example
+## 5. Output Format & JSON Example
 
 For every processed image, two files are created in `--output`:
 1. **Annotated Image** (`results/annotated/<filename>_annotated.png`): Visual image with color-coded bounding boxes and label badges.
@@ -164,7 +142,7 @@ For every processed image, two files are created in `--output`:
 
 ---
 
-## 8. Project Structure
+## 6. Project Structure
 
 ```
 Manuscript-Layout-Detection/
