@@ -1,0 +1,119 @@
+{
+  "filename": "sample_palm_leaf.jpg",
+  "image_width": 1239,
+  "image_height": 504,
+  "skew_angle_deg": 1.5,
+  "num_regions": 11,
+  "regions": [
+    {
+      "bbox": [
+        5,
+        0,
+        890,
+        58
+      ],
+      "label": "filler",
+      "confidence": 0.96
+    },
+    {
+      "bbox": [
+        245,
+        35,
+        361,
+        50
+      ],
+      "label": "filler",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        144,
+        38,
+        1075,
+        440
+      ],
+      "label": "main_text",
+      "confidence": 0.98
+    },
+    {
+      "bbox": [
+        952,
+        41,
+        1040,
+        61
+      ],
+      "label": "filler",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        76,
+        47,
+        237,
+        102
+      ],
+      "label": "filler",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        1040,
+        54,
+        1075,
+        78
+      ],
+      "label": "filler",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        136,
+        296,
+        164,
+        347
+      ],
+      "label": "side_text",
+      "confidence": 0.91
+    },
+    {
+      "bbox": [
+        830,
+        372,
+        1068,
+        433
+      ],
+      "label": "filler",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        87,
+        383,
+        196,
+        423
+      ],
+      "label": "filler",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        262,
+        422,
+        352,
+        435
+      ],
+      "label": "filler",
+      "confidence": 0.95
+    },
+    {
+      "bbox": [
+        0,
+        436,
+        907,
+        504
+      ],
+      "label": "filler",
+      "confidence": 0.97
+    }
+  ]
+}
